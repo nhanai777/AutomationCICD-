@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="7" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-31T23:21:50 ICT" name="Suite" finished-at="2024-08-31T23:22:47 ICT" duration-ms="56686">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LoginErrorValidations()[pri:0, instance:personalproject.tests.ErrorValidationsTest@6127a7e]" name="LoginErrorValidations" class="personalproject.tests.ErrorValidationsTest"/>
+        <method signature="ErrorValidationsTest.ProductErrorValidations()[pri:0, instance:personalproject.tests.ErrorValidationsTest@6127a7e]" name="ProductErrorValidations" class="personalproject.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:personalproject.tests.SubmitOrderTest@2ea6e30c]" name="submitOrder" class="personalproject.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-08-31T23:21:50 ICT" name="Submit Order Test" finished-at="2024-08-31T23:22:13 ICT" duration-ms="22851">
+      <class name="personalproject.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:personalproject.tests.SubmitOrderTest@2ea6e30c]" started-at="2024-08-31T23:21:51 ICT" name="launchApplication" finished-at="2024-08-31T23:21:54 ICT" duration-ms="3543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:personalproject.tests.SubmitOrderTest@2ea6e30c]" started-at="2024-08-31T23:21:54 ICT" name="submitOrder" data-provider="getData" finished-at="2024-08-31T23:22:00 ICT" duration-ms="5859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Nhanai44@, product=ZARA COAT 3, email=vuthinhanai@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:personalproject.tests.SubmitOrderTest@2ea6e30c]" started-at="2024-08-31T23:22:00 ICT" name="tearDown" finished-at="2024-08-31T23:22:00 ICT" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:personalproject.tests.SubmitOrderTest@2ea6e30c]" started-at="2024-08-31T23:22:00 ICT" name="launchApplication" finished-at="2024-08-31T23:22:04 ICT" duration-ms="3431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:personalproject.tests.SubmitOrderTest@2ea6e30c]" started-at="2024-08-31T23:22:04 ICT" name="submitOrder" data-provider="getData" finished-at="2024-08-31T23:22:09 ICT" duration-ms="5867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=ADIDAS ORIGINAL, email=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:personalproject.tests.SubmitOrderTest@2ea6e30c]" started-at="2024-08-31T23:22:09 ICT" name="tearDown" finished-at="2024-08-31T23:22:10 ICT" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:personalproject.tests.SubmitOrderTest@2ea6e30c]" started-at="2024-08-31T23:22:10 ICT" name="launchApplication" finished-at="2024-08-31T23:22:13 ICT" duration-ms="3047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:personalproject.tests.SubmitOrderTest@2ea6e30c]" started-at="2024-08-31T23:22:13 ICT" name="OrderHistoryTest" finished-at="2024-08-31T23:22:13 ICT" depends-on-methods="personalproject.tests.SubmitOrderTest.submitOrder" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:personalproject.tests.SubmitOrderTest@2ea6e30c]" started-at="2024-08-31T23:22:13 ICT" name="tearDown" finished-at="2024-08-31T23:22:13 ICT" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- personalproject.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+    <test started-at="2024-08-31T23:22:14 ICT" name="Error Validations Test" finished-at="2024-08-31T23:22:47 ICT" duration-ms="33607">
+      <class name="personalproject.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:personalproject.tests.ErrorValidationsTest@6127a7e]" started-at="2024-08-31T23:22:14 ICT" name="launchApplication" finished-at="2024-08-31T23:22:16 ICT" duration-ms="2158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="LoginErrorValidations()[pri:0, instance:personalproject.tests.ErrorValidationsTest@6127a7e]" started-at="2024-08-31T23:22:16 ICT" name="LoginErrorValidations" finished-at="2024-08-31T23:22:16 ICT" duration-ms="459" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect  password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect  password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at personalproject.tests.ErrorValidationsTest.LoginErrorValidations(ErrorValidationsTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:personalproject.tests.ErrorValidationsTest@6127a7e]" started-at="2024-08-31T23:22:16 ICT" name="tearDown" finished-at="2024-08-31T23:22:16 ICT" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:personalproject.tests.ErrorValidationsTest@6127a7e]" started-at="2024-08-31T23:22:16 ICT" name="launchApplication" finished-at="2024-08-31T23:22:19 ICT" duration-ms="3118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidations()[pri:0, instance:personalproject.tests.ErrorValidationsTest@6127a7e]" started-at="2024-08-31T23:22:19 ICT" name="LoginErrorValidations" finished-at="2024-08-31T23:22:20 ICT" duration-ms="824" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect  password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect  password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at personalproject.tests.ErrorValidationsTest.LoginErrorValidations(ErrorValidationsTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:personalproject.tests.ErrorValidationsTest@6127a7e]" started-at="2024-08-31T23:22:20 ICT" name="tearDown" finished-at="2024-08-31T23:22:21 ICT" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:personalproject.tests.ErrorValidationsTest@6127a7e]" started-at="2024-08-31T23:22:21 ICT" name="launchApplication" finished-at="2024-08-31T23:22:23 ICT" duration-ms="2908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidations()[pri:0, instance:personalproject.tests.ErrorValidationsTest@6127a7e]" started-at="2024-08-31T23:22:23 ICT" name="ProductErrorValidations" finished-at="2024-08-31T23:22:47 ICT" duration-ms="23546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:personalproject.tests.ErrorValidationsTest@6127a7e]" started-at="2024-08-31T23:22:47 ICT" name="tearDown" finished-at="2024-08-31T23:22:47 ICT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- personalproject.tests.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+  </suite> <!-- Suite -->
+</testng-results>

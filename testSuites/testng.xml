@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="test" name="Suite">
+	<listeners>
+		<listener class-name="personalproject.TestComponents.Listeners" />
+	</listeners>
+
+	<test thread-count="5" name="Submit Order Test">
+		<!--thread-count="5" chạy tối đa 1 lần 5 methods-->
+		<classes>
+			<class name="personalproject.tests.SubmitOrderTest" />
+		</classes>
+	</test> <!--
+	Test -->
+
+	<test thread-count="5" name="Error Validations Test">
+		<classes>
+			<class name="personalproject.tests.ErrorValidationsTest" />
+		</classes>
+	</test>
+
+</suite>
